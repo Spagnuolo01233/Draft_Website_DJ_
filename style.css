@@ -1,0 +1,88 @@
+body{
+    background-image: url('volto.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: floralwhite;
+    font-family: 'Mynerve', cursive;
+    font-family: 'Varela Round', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#headBar{   
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 0.5px grey solid;
+}
+
+#shadowImg{
+    box-shadow: -4px 4px 4px silver;
+}
+
+#barraSecondaria{
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+
+#menuBottoni{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+#menuBottoni > a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 22px;
+    color: aliceblue;
+    border-bottom: 1px solid aliceblue;
+}
+
+#tastoBarra:hover{
+    color: gold;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right,green,white,red)1;
+    text-shadow: 1px 1px 1px;
+}
+
+#boxIcone{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+#boxIcone > div{
+    padding: 15px;
+    margin-top: 5px;  
+}
+
+#contatti{
+    margin-top: 80px;
+}
+
+#footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 0.5px grey solid;
+    margin-top: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: first baseline;
+    align-items:center;
+}
+
+#footer > div{
+    margin: auto;
+}
+
+
+
+
+
+
